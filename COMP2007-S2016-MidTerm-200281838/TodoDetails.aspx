@@ -13,11 +13,11 @@
                 </div>
                 <div class="form-group">
                     <label class="control-label" for="TodoNotesTextBox">Todo Notes</label>
-                    <asp:TextBox runat="server" CssClass="form-control" ID="TodoNotesTextBox" placeholder="Todo Notes" required="true"></asp:TextBox>
+                    <asp:TextBox runat="server" CssClass="form-control" ID="TodoNotesTextBox" placeholder="Todo Notes"></asp:TextBox>
                 </div>
                 <div class="form-group">
-                    <label class="control-label" for="CompletedTextBox">Completed</label>
-                    <asp:TextBox runat="server" CssClass="form-control" ID="CompletedTextBox" placeholder="Completed" required="true"></asp:TextBox>
+                    <label class="control-label" for="CompletedCheckBox">Completed</label>
+                    <asp:CheckBox runat="server" CssClass="form-control" ID="CompletedCheckBox" Checked="false"></asp:CheckBox>
                 </div>
                 <div class="text-right">
                     <asp:Button Text="Cancel" ID="CancelButton" CssClass="btn btn-warning btn-lg" runat="server" 

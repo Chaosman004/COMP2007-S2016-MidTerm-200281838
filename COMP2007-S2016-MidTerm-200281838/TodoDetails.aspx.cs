@@ -38,7 +38,7 @@ namespace COMP2007_S2016_MidTerm_200281838
                 if (updatedTodo != null)
                 {
                     TodoNameTextBox.Text = updatedTodo.TodoName;
-                    CompletedTextBox.Text = Convert.ToString(updatedTodo.Completed);
+                    CompletedCheckBox.Checked = Convert.ToBoolean(updatedTodo.Completed);
                     TodoNotesTextBox.Text = updatedTodo.TodoNotes;
                 }
             }
@@ -74,7 +74,7 @@ namespace COMP2007_S2016_MidTerm_200281838
 
                 // add form data to the new student record
                 newTodo.TodoName = TodoNameTextBox.Text;
-                newTodo.Completed = Convert.ToBoolean(CompletedTextBox.Text);
+                newTodo.Completed = CompletedCheckBox.Checked;
                 newTodo.TodoNotes = TodoNotesTextBox.Text;
 
                 // use LINQ to ADO.NET to add / insert new student into the database

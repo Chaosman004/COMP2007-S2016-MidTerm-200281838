@@ -26,7 +26,6 @@
                     OnSorting="TodosGridView_Sorting" OnRowDataBound="TodosGridView_RowDataBound" 
                     PagerStyle-CssClass="pagination-ys">
                     <Columns>
-                        <asp:BoundField DataField="TodoID" HeaderText="Todo ID" Visible="true" SortExpression="TodoID" />
                         <asp:BoundField DataField="TodoName" HeaderText="Todo" Visible="true" SortExpression="TodoName" />
                         <asp:BoundField DataField="Completed" HeaderText="Completed" Visible="true" SortExpression="Completed" />
                         <asp:BoundField DataField="TodoNotes" HeaderText="Notes" Visible="true" SortExpression="TodoNotes" />
