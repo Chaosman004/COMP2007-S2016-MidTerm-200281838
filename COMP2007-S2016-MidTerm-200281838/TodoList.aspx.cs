@@ -5,6 +5,12 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
+/**
+ * Robert Page, 200281838, 2016-06-03, Version 0.8
+ * This file contains the functonality of the Todo List
+ * It allows users to view, update completeness of, and delete Todos  
+ */
+
 // using statements that are required to connect to EF DB
 using COMP2007_S2016_MidTerm_200281838.Models;
 using System.Web.ModelBinding;
@@ -27,6 +33,7 @@ namespace COMP2007_S2016_MidTerm_200281838
             }
 
         }
+
 
         /**
          * <summary>

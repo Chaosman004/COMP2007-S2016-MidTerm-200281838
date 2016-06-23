@@ -17,7 +17,7 @@
                         <asp:ListItem Text="10" Value="10" />
                         <asp:ListItem Text="All" Value="10000" />
                     </asp:DropDownList>
-                </div>
+                    
 
             <asp:GridView runat="server" CssClass="table table-bordered table-striped table-hover"
                     ID="TodosGridView" AutoGenerateColumns="false" DataKeyNames="TodoID"

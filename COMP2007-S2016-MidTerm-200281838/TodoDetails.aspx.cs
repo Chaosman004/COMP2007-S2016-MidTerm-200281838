@@ -5,6 +5,12 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
+/**
+ * Robert Page, 200281838, 2016-06-03, Version 1.0
+ * This file contains the functonality of the Todo Details Page
+ * It allows users to add, and edit Todos  
+ */
+
 // using statements required for EF DB access
 using COMP2007_S2016_MidTerm_200281838.Models;
 using System.Web.ModelBinding;
